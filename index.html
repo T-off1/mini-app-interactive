@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini app interactive</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>💬 Mur de messages</h1>
+
+    <section id="auth">
+      <button id="login">Se connecter (anonyme)</button>
+      <button id="logout" hidden>Se déconnecter</button>
+      <p id="whoami"></p>
+    </section>
+
+    <form id="message-form" hidden>
+      <input id="message-input" type="text" maxlength="280" placeholder="Ton message..." required />
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <ul id="messages"></ul>
+    <p class="note">NB : démo gratuite — pas de données sensibles.</p>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
