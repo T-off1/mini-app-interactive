@@ -1,8 +1,8 @@
 // ⚠️ Remplace "X.Y.Z" par une version actuelle si besoin.
 // Import Firebase (SDK modulaire)
-import { initializeApp } from "https://www.gstatic.com/firebasejs/X.Y.Z/firebase-app.js";
-import { getAuth, signInAnonymously, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/X.Y.Z/firebase-auth.js";
-import { getFirestore, collection, addDoc, serverTimestamp, query, orderBy, limit, onSnapshot } from "https://www.gstatic.com/firebasejs/X.Y.Z/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+import { getAuth, signInAnonymously, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+import { getFirestore, collection, addDoc, serverTimestamp, query, orderBy, limit, onSnapshot } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
 
 // 1) Config Firebase — à copier depuis la console Firebase (voir étape 3)
 const firebaseConfig = {
