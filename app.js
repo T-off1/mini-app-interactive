@@ -6,10 +6,13 @@ import { getFirestore, collection, addDoc, serverTimestamp, query, orderBy, limi
 
 // 1) Config Firebase — à copier depuis la console Firebase (voir étape 3)
 const firebaseConfig = {
-  apiKey: "REMPLACEZ",
-  authDomain: "REMPLACEZ",
-  projectId: "REMPLACEZ",
-  appId: "REMPLACEZ"
+  apiKey: "AIzaSyBIXezxjnAxARCaUiR3YaNHbHezCUwA5RA",
+  authDomain: "mini-app-interactive.firebaseapp.com",
+  projectId: "mini-app-interactive",
+  storageBucket: "mini-app-interactive.firebasestorage.app",
+  messagingSenderId: "247856223438",
+  appId: "1:247856223438:web:90a3361d64810816cf2c9f",
+  measurementId: "G-R015VRXK2M"
 };
 
 // 2) Init
